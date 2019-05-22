@@ -1,8 +1,10 @@
-doctype html
-html(lang="en")
-  head
-    title Welcome to Quick Blog
-    meta(name="description", content="Use of quick Blog is easy and you will get 100/100 score in Google pagespeed insights.")
-  body
-    h1 Welcome to Quick Blog
-    p Use of quick Blog is easy and you will get 100/100 score in Google pagespeed insights.
+extend _component/layout/main
+
+block config
+  -
+    var title = `Welcome to Quick Blog`
+    var description = `Use of quick Blog is easy and you will get 100/100 score in Google pagespeed insights`
+
+block content
+  h1=title
+  p=description

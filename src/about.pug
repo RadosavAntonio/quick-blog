@@ -1,8 +1,10 @@
-doctype html
-html
-    head
-        title About Quick Blog
-        meta(name="description", contnet="Quick Blog is one of the quickest and fastest toold for writing blogs in the world")
-    body
-        h1 About Quick Blog
-        p Quick Blog is one of the quickest and fastest toold for writing blogs in the world
+extend _component/layout/main
+
+block config
+  -
+    var title = `About Quick Blog`
+    var description = `Uuick Blog is one of the quickest and fastest toold for writing blogs in the world`
+
+block content
+  h1=title
+  p=description
