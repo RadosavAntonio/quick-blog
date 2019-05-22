@@ -2,6 +2,7 @@
 
 ## learn
 - exercise usage of layout
+- better understanding of why use layout
 
 
 
