@@ -1,15 +1,12 @@
+@import '_component/config/color';
+
 // Quick css reset
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-
 }
-
-// orange - #FF681F
-// merlot - #831923
-// white
 
 html, body{
     height: 100%;
@@ -19,13 +16,32 @@ html{
     scroll-behavior: smooth;
 }
 
+// default is farthest-corner
 .welcome {
     height: 100%;
-    background-image: radial-gradient(ellipse, white, #FF681F)
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-image: radial-gradient(top, farthest-side, $color-orange, $color-merlot);
+    // select everithing after it
+    // & > * {
+    //     width: 100%;
+    // }
 }
 
-
+.scrool {
+    height: 100%;
+}
 
 h1 {
-    
+    color: $color-white;
+    padding: 3.75rem;
+    font-size: 2rem;
+}
+
+a {
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1rem;
 }
