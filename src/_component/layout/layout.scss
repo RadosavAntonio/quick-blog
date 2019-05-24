@@ -1,0 +1,31 @@
+// Quick css reset
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+// orange - #FF681F
+// merlot - #831923
+// white
+
+html, body{
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.welcome {
+    height: 100%;
+    background-image: radial-gradient(ellipse, white, #FF681F)
+}
+
+
+
+h1 {
+    
+}
