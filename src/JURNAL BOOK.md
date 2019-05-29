@@ -10,7 +10,9 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 -quick css reset
 -radial background [what I googled, ](https://www.google.com/search?rlz=1C5CHFA_enGB845GB848&ei=UZznXIjeDLLIxgPO4ImoCA&q=css+radial+background&oq=css+radial+background&gs_l=psy-ab.3..0j0i20i263j0i22i30l8.5052.9436..9666...0.0..0.139.1347.20j1......0....1..gws-wiz.......0i71j35i39j0i67j0i10.or8p3DWi8aA) [and what I find, ](https://www.w3schools.com/cssref/func_radial-gradient.asp) so ellipse is default(can be not writen) or can be set as circle, can use more colors, can use procentage, can chage the position of gradient (default is centre)
 -insert a font style (performant version)
-
+-use of free typography
+-[css tricls](https://css-tricks.com)
+-liniar gradiant background (by inspecting https://css-tricks.com)
 
 ## modified
 - had to add .scrool class to work properly
