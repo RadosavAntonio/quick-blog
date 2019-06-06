@@ -13,6 +13,8 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 -use of free typography
 -[css tricls](https://css-tricks.com)
 -liniar gradiant background (by inspecting https://css-tricks.com)
+- create a theme
+
 
 ## modified
 - had to add .scrool class to work properly
@@ -22,8 +24,9 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 ## ---BLOCKERS---
 1. --solved--
 scrool down internal link did not worked
+ theme - solved by restrarting the console
+run the npm start with css (theme problem) - solved by changing the theme
 2. --unsolved--
- 
 
 ## ---questions---
 

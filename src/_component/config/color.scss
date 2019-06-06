@@ -1,8 +1,24 @@
+$theme: 'wine';
+
+// for test
+$color-normal: #fff;
+$color-dark:#111;
+
+
+@if ($theme == 'wine') {
+    $color-normal: #FF681F;
+    $color-dark: #831923;
+}
+
+@if ($theme == 'pink') {
+    $color-normal: #da1b60;
+    $color-dark:#100E17;
+}
+
 $color-white: #fff;
 $color-black: #000;
-$color-orange: #FF681F;
-$color-merlot: #831923;
 $color-apricot: #FBCEB1;
 $color-amaranth:#da1b60;
 $color-cinder:#100E17;
-
+$color-orange: #FF681F;
+$color-merlot: #831923;
