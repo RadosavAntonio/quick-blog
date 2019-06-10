@@ -1,0 +1,70 @@
+// @import '_component/config/color';
+
+// Quick css reset
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+// raddial default is ellipse and farthest-corner
+.welcome {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-image: radial-gradient(top, farthest-side, $color-normal, $color-dark);
+    align-items: center;
+    // select everithing after it
+    // & > * {
+    //     width: 100%;
+    // }
+}
+
+.scrool {
+    // height: 100%;
+}
+
+h1 {
+    color: $color-white;
+    padding: 3.75rem;
+    font-size: 2rem;
+}
+
+a.scrool-down {
+    background-image: linear-gradient(to top,$color-normal, $color-dark);
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 0.1rem solid $color-white;
+    border-radius: 0.6rem;
+    margin: 1rem;
+    padding: 0.3rem 0.6rem;
+    &:after{
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+    //     border-top: 0.5rem solid $color-white;
+    //     // border-bottom: 0.5rem solid red;
+    //     border-left: 0.5rem solid transparent;
+    //     border-right: 0.5rem solid transparent;
+    }
+}
+
+.welcome-description {
+    line-height: 1.5rem;
+    padding: 0 0.5rem;
+}

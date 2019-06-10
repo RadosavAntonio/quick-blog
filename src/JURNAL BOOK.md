@@ -13,7 +13,10 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 -use of free typography
 -[css tricls](https://css-tricks.com)
 -liniar gradiant background (by inspecting https://css-tricks.com)
-- create a theme
+- create a theme (change it by code)
+- build first for mobile!
+- use grid for style
+- use classes for css
 
 
 ## modified
