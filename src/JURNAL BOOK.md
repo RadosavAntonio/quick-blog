@@ -18,7 +18,8 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 - use grid for style
 - use classes for css
 - write a paragrapf with link inserted
--open a link in a new tab (target="_blank")
+- open a link in a new tab (target="_blank")
+- adapt the website for tablets and desktop
 
 
 ## modified
@@ -32,6 +33,7 @@ scrool down internal link did not worked
  theme - solved by restrarting the console
 run the npm start with css (theme problem) - solved by changing the theme
 2. --unsolved--
+position the top button.
 
 ## ---questions---
 insert space just from typo? (at index-p)
