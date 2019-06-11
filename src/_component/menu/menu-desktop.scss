@@ -1,6 +1,7 @@
-@media (min-width: 1000px) {
+@media (min-width: 1280px) {
+  body {
+    grid-template-columns: 1fr 13rem;
+    grid-template-rows: 100vh 1fr 1fr 13rem;
     
   }
-// @media (min-width: 1280px) {
-
-//   }
+}

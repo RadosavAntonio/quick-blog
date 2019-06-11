@@ -17,6 +17,8 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 - build first for mobile!
 - use grid for style
 - use classes for css
+- write a paragrapf with link inserted
+-open a link in a new tab (target="_blank")
 
 
 ## modified
@@ -32,7 +34,7 @@ run the npm start with css (theme problem) - solved by changing the theme
 2. --unsolved--
 
 ## ---questions---
-
+insert space just from typo? (at index-p)
 
 ## ---GitHub Link---
 [GitHub Antonio Radosav - quick blog - link](https://github.com/RadosavAntonio/quick-blog)
