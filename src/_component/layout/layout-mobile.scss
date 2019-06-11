@@ -18,6 +18,11 @@ html{
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+li {
+    // padding: 1rem;
+    margin: 1rem 2rem;
+}
+
 // raddial default is ellipse and farthest-corner
 .welcome {
     height: 100%;
@@ -50,6 +55,10 @@ html{
 h1 {
     color: $color-white;
     padding: 3.75rem;
+}
+
+p {
+    color: $color-black;
 }
 
 a {
