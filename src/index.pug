@@ -6,11 +6,6 @@ block config
     var description = `Use of quick Blog is easy and you will get 100/100 score in Google pagespeed insights`
 
 block content
-  .welcome
-    h1=title
-    p.welcome-description=description
-    a.scrool-down(href="#continue") click to continue or scroll down
-
   #continue.scrool
     h2 Let's do some coding! Awesome content!
     p
@@ -24,4 +19,4 @@ block content
     p.lead CONTENT
     p
       small.small Anxiety is naturally tiring because it causes ups and downs in your energy levels, which can leave you feeling incredibly drained. Some people feel tired throughout the whole day, while others feel tired only after an anxiety attack. Others feel extreme fatigue, finding they need to take frequent naps in order to regenerate, or feeling as though they can't focus on life because of their tiredness.
-    a.top(href="#top") Top
+    include _component/top/top
