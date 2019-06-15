@@ -20,7 +20,7 @@ html{
 
 li {
     // padding: 1rem;
-    margin: 1rem 2rem;
+    // margin: 1rem 2rem;
 }
 
 // raddial default is ellipse and farthest-corner
@@ -71,8 +71,9 @@ a.top{
     text-decoration: none;
     font-size: 1rem;
     border: 0.1rem solid $color-white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 0.3rem 0.3rem;
+    display: -webkit-inline-box;
 }
 
 a.scrool-down {
