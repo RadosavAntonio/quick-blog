@@ -28,5 +28,8 @@
         text-decoration: none;
         display: block;
         padding: 0.5rem 1rem;
+        &:hover {
+            color: $color-dark;
+        }
     }
 }

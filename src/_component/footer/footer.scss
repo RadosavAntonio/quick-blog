@@ -28,4 +28,7 @@ footer {
     padding: 1rem;
     color: $color-white;
     text-decoration: none;
+    &:hover {
+        color: $color-dark;
+    }
 }
