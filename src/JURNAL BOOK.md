@@ -23,6 +23,7 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 - adapt the website for tablets and desktop
 - enumeration (ol li)
 - s for (text taiat)
+- hr (https://www.w3schools.com/tags/tag_hr.asp)
 
 
 ## modified
@@ -34,8 +35,11 @@ during the search i find an interesting setting named [SMOOTH SCROOLING, ](https
 scrool down internal link did not worked
  theme - solved by restrarting the console
 run the npm start with css (theme problem) - solved by changing the theme
+position the top button
+hr on contact page not work
 2. --unsolved--
-position the top button.
+comtact/contact on home page
+
 
 ## ---questions---
 insert space just from typo? (at index-p)
