@@ -37,8 +37,9 @@ scrool down internal link did not worked
 run the npm start with css (theme problem) - solved by changing the theme
 position the top button
 hr on contact page not work
-2. --unsolved--
 comtact/contact on home page
+2. --unsolved--
+menu on the about page is not align properly
 
 
 ## ---questions---
