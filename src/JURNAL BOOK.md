@@ -40,6 +40,7 @@ hr on contact page not work
 comtact/contact on home page
 2. --unsolved--
 menu on the about page is not align properly
+i can not see the ip on terminal to connect with the phone
 
 
 ## ---questions---
