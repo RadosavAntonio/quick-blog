@@ -2,13 +2,13 @@ extend ../_component/layout/main
 
 block config
   -
-    var title = `CSS3 introduction`
-    var description = `Explore CSS3 in a new light`
+    var title = `HTML5 introduction`
+    var description = `Explore HTML5 in a new light`
 
 block content
   #continue.scrool
-    h2 Discover the power of awesome CSS3
+    h2 Discover the power of awesome HTML5
     .list-wrapper
-        each article in data.css
+        each article in data.html
             include ../_component/article/article
             //- pre=JSON.stringify(article, null, 2)
