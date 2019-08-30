@@ -3,7 +3,6 @@
     "title": "my a title",
     "description": "my a drescription"
   },
-
   "body": [
     {
       "type": "h2",
@@ -11,7 +10,16 @@
     },
     {
       "type": "p",
-      "data": ["this is a paragraph", "this is another paragraph"]
+      "data": [
+        "this is a paragraph",
+        "this is another paragraph",
+        "this is a paragraph",
+        "this is another paragraph",
+        "this is a paragraph",
+        "this is another paragraph",
+        "this is a paragraph",
+        "this is another paragraph"
+      ]
     }
   ]
 }

@@ -7,4 +7,11 @@ block config
 
 block content
   #continue.scrool
-    h2 template
+    each something in template.body
+      if something.type == "h2"
+        h2=something.data
+      if something.type == "p"
+        each paragraph in something.data 
+          p=paragraph
+    //- pre=JSON.stringify(template.body, null, 2)
+    //- 26.43
