@@ -1,0 +1,10 @@
+extend ../_component/layout/main
+
+block config
+  -
+    var title = template.head.title || `change title`
+    var description = template.head.description || `chage description`
+
+block content
+  #continue.scrool
+    h2 template
